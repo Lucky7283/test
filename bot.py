@@ -9,7 +9,6 @@ token,api=test.test()
 print(token)
 print(api)
 bot=telebot.TeleBot(token)
-
 genai.configure(api_key=api)
 
 model = genai.GenerativeModel("gemini-2.0-pro-exp")
